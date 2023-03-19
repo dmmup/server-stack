@@ -29,9 +29,7 @@ const ConnectDB = async () => {
 }
 
 ConnectDB().catch(console.error);
-app.get("/", (req, res) => {
-  res.send("Allo!!!")
-})
+
 
 app.post("/user", async (req, res) => {
   const {name, matricule, password} = req.body;
