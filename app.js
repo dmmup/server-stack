@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 
 
 const ConnectDB = async () => {
-  const url = 'mongodb+srv://dmup:abcd1234@cluster0.y7nxklk.mongodb.net/?retryWrites=true&w=majority' 
+  const url = 'mongodb+srv://dmup:zagadat@cluster0.y7nxklk.mongodb.net/?retryWrites=true&w=majority' 
 
 
   try {
